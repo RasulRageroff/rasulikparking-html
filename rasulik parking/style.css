@@ -1,0 +1,40 @@
+html{
+	font-family:Times New Roman; /* ШРИФТ КОТОРЫЙ БУДЕТ ИСПОЛЬЗОВАТЬСЯ ВЕЗДЕ*/
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url(img/image.png); /*ЗАДНИЙ ФОН САЙТА*/
+	color: white;
+	    
+}
+
+body h2{
+	font-size: 50px;
+	text-shadow: black 3px 5px 3px;/* ТЕНЬ ДЛЯ ШРИФТА */
+	padding-top: 410px;
+	margin-left: 650px;
+}
+
+body h1{
+	font-size: 35px;
+	text-shadow: black 3px 5px 3px;
+	margin-left: 740px;
+}
+
+.dws-submit{
+	color: #000000
+	border: none;
+	border-bottom: 3px solid white;	
+	cursor:pointer;
+	font-family: Verdana;
+	font-size: 15px;
+	margin-left: 890px;
+	margin-top: 10px;
+	text-shadow: white 1px 1px 1px;
+}
+
+

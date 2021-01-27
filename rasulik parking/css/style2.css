@@ -1,0 +1,102 @@
+﻿html{
+	font-family:Times New Roman; /* ШРИФТ КОТОРЫЙ БУДЕТ ИСПОЛЬЗОВАТЬСЯ ВЕЗДЕ*/
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{  
+	
+}
+
+.logo{ /* ШАПКА САЙТА */
+	background-color: black;
+	width: 100%;
+    display: flex;
+}
+
+.graficlogo{ /* КАРТИНКА КОТОРАЯ НАХОДИТСЯ В ШАПКЕ */
+	margin-left: 80px;
+}
+
+.tarif{
+
+	margin-left: 50px;
+	padding-top: 29px;
+	color: white;
+}
+
+.glavniytext{
+
+	font-size: 25px;
+	grid-template-columns:10fr 1fr;
+        color:black;
+
+}
+
+.infomain{
+	padding-top: 15px;
+
+
+}
+
+.reklama{ /* РЕКЛАМА АКЦИИ*/
+	margin-top: 200px;
+}
+
+.nomer{ /* НОМЕР ПРЯМОЙ ЛИНИИ*/
+	padding-top: 25px;
+	color: grey;
+	margin-left: 1000px;
+	font-size: 28px;
+
+}
+
+.tarifnachalo{
+	
+    background:#EEEEEE;
+    width: 100%;
+
+}
+.tarifst{
+ padding-top: 20px;
+ background:#EEEEEE;
+    width: 100%;
+}
+
+.contenttext1{
+	font-size: 20px;
+	padding-top: 20px;
+
+}
+
+.content{
+	font-size: 20px;
+    font-family: arial;
+}
+
+
+.fotoekcss{
+	margin-left: 22px;
+	padding-top: 29px;
+	color: white;
+    
+}
+
+.fotoglavniytext{
+	
+	font-size: 20px;
+	padding-top: 30px;
+	background: #EEEEEE;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+
+.columnntext{
+	color: black;
+	column-count: 3;
+	padding-top: 20px;
+}
